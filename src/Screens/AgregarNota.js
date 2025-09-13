@@ -4,6 +4,7 @@ import {View, Text, ScrollView, Alert, Image} from 'react-native';
 import {Card, TextInput, Button} from 'react-native-paper';
 import styles from '../Styles/styles';
 
+
 const AgregarNota = ({navigation}) => {
     const [nota1, setNota1] = useState('');
     const [nota2, setNota2] = useState('');

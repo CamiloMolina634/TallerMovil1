@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+import styles from '../Styles/styles';
 
 const Inicio = ({ navigation }) => {
   return (

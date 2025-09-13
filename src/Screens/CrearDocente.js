@@ -3,6 +3,7 @@ import {View, Text, ScrollView, Alert, Image} from 'react-native';
 import {Card, TextInput, Button} from 'react-native-paper';
 import styles from '../Styles/styles';
 
+
 const CrearDocente = ({navigation}) => {
     const [nombre, setNombre] = useState('');
     const [apellido, setApellido] = useState('');
@@ -33,13 +34,7 @@ const CrearDocente = ({navigation}) => {
             return;
         }
 
-        const docente = {
-            nombre,
-            apellido,
-            materia,
-            email,
-        };
-        navigation.navigate('VerDocente', {docente});
+        Alert.alert('Perfil guardado', 'El perfil del docente ha sido guardado correctamente', [{text: 'Ok'}]);
     };
 
     const handleEditDocente = () => {

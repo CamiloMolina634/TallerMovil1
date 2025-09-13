@@ -1,11 +1,13 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
+import { Provider as PaperProvider } from 'react-native-paper';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Inicio from './src/Screens/Inicio';
 import CrearEstudiante from './src/Screens/CrearEstudiante';
 import CrearDocente from './src/Screens/CrearDocente';
 import AgregarNota from './src/Screens/AgregarNota';
 import VerNota from './src/Screens/VerNota';
+
 
 const Stack = createNativeStackNavigator();
 
