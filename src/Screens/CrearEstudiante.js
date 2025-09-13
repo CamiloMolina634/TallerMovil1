@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, Alert } from 'react-native';
 import { Text, TextInput, Button, Card } from 'react-native-paper';
+import styles from '../Styles/styles';
 
 const CrearEstudiante = ({ navigation }) => {
   const [nombre, setNombre] = useState('');

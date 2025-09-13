@@ -1,5 +1,6 @@
-import React from 'react';
+
 import { NavigationContainer } from '@react-navigation/native';
+import { Provider as PaperProvider } from 'react-native-paper';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Inicio from './src/Screens/Inicio';
 import CrearEstudiante from './src/Screens/CrearEstudiante';
@@ -25,3 +26,4 @@ export default function App() {
         </PaperProvider>
     );
 }
+
