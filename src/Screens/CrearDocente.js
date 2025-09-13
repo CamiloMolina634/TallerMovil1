@@ -112,6 +112,7 @@ const CrearDocente = ({navigation}) => {
                             Editar Docente
                         </Button>
 
+                       
                     </Card.Content>
                 </Card>
             </ScrollView>
