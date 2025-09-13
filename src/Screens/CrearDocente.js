@@ -119,3 +119,4 @@ const CrearDocente = ({navigation}) => {
     )
     }//este cierra el componentee
         
+export default CrearDocente;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Image, ScrollView } from 'react-native';
 import styles from '../Styles/styles';
+import { Button} from 'react-native-paper';
 
 
 const VerNota = ({ route, navigation }) => {
